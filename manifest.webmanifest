@@ -1,6 +1,5 @@
 {
   "manifest_version": 1,
   "name": "Knight Hawks Ship Data",
-  "version": "1.0.0",
-  "type": "plugin"
+  "version": "1.0.0"
 }
