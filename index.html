@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ship Stats Tracker</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 10px;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+    input[type="number"],
+    textarea {
+      width: 100%;
+      margin-top: 5px;
+    }
+    textarea {
+      height: 50px;
+    }
+    button {
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+  <h3>Selected Token Stats</h3>
+  <div id="statPanel">
+    <label>Hull Points: <input type="number" id="hpInput" /></label>
+    <label>ADF: <input type="number" id="adfInput" /></label>
+    <label>MR: <input type="number" id="mrInput" /></label>
+    <label>Speed: <input type="number" id="speedInput" /></label>
+    <label>DCR: <input type="number" id="dcrInput" /></label>
+
+    <label>Weapons:
+      <textarea id="weaponsInput"></textarea>
+    </label>
+    <label>Defenses:
+      <textarea id="defensesInput"></textarea>
+    </label>
+    <label>Damaged Systems:
+      <textarea id="damagedSystemsInput"></textarea>
+    </label>
+
+    <button id="saveBtn">Save Stats</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

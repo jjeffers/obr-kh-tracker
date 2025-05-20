@@ -1,0 +1,7 @@
+{
+  "id": "kh-tracker",
+  "name": "Knight Hawks Ship Data",
+  "version": "1.0.0",
+  "entry": "index.html",
+  "type": "plugin"
+}
