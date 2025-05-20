@@ -1,5 +1,12 @@
 {
   "manifest_version": 1,
   "name": "Knight Hawks Ship Data",
-  "version": "1.0.0"
+  "version": "1.0.0",
+    "action": {
+    "title": "Ship Data",
+    "icon": "/icon.svg",
+    "popover": "/",
+    "height": 600,
+    "width": 400
+  }
 }
